@@ -5,9 +5,9 @@ set bs=2
 set number
 
 set smartindent
-set tabstop=4 "set tab character to 4 characters
+set tabstop=2 "set tab character to 4 characters
 "set expandtab "turn tabs into whitespace
-set shiftwidth=4 "indent width for autoindent
+set shiftwidth=2 "indent width for autoindent
 filetype indent on "indent depends on filetype
 
 "Turn on incremental search with ignore case (except explicit caps)
