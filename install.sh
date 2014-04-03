@@ -14,3 +14,4 @@ function getconf {
 getconf .vimrc
 getconf .screenrc
 getconf .zshrc
+getconf .bash_profile

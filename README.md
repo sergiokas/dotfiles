@@ -1,8 +1,7 @@
-Bashfiles
-=========
+# Bashfiles
 
 Preferred configurations for bash, vim, screen and other terminal programs
 
-== Installation
+## Installation
 
-`curl https://raw.githubusercontent.com/sergiokas/bashfiles/master/install.sh | bash`
+`curl -sSL https://raw.githubusercontent.com/sergiokas/bashfiles/master/install.sh | bash`
