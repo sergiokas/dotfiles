@@ -19,8 +19,8 @@ set smartcase
 set statusline=%F%m%r%h%w\ [TYPE=%Y\ %{&ff}]\ [%l/%L\ (%p%%)]
 
 "Set color scheme
-set t_Co=256
-colorscheme desert256
+"set t_Co=256
+colorscheme desert
 syntax enable
 
 "Enable indent folding
