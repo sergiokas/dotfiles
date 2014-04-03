@@ -1,16 +1,16 @@
 #!/usr/bin/env sh
 
-$BASE=https://raw.githubusercontent.com/sergiokas/bashfiles/master
+BASE="https://raw.githubusercontent.com/sergiokas/bashfiles/master"
 
 function getconf {
 	if [ ! -f ~/$1 ]; then
-		curl -l $BASE/$1 > ~/$1
-		echo "Updated $1"
+    echo "Updating $1..."
+		curl -sSL $BASE/$1 > ~/$1
 	else
-		echo "$1 already exists, skipping"
+		echo "$1 already exists, skipping."
 	fi
-} 
+}
 
-get(.vimrc)
-get(.screen)
-get(.zshrc)
+getconf .vimrc
+getconf .screenrc
+getconf .zshrc
