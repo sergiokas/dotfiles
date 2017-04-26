@@ -15,3 +15,5 @@ getconf .vimrc
 getconf .screenrc
 getconf .zshrc
 getconf .bash_profile
+getconf .tmux.conf
+getconf .psqlrc
