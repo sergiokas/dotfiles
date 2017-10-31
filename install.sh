@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-BASE="https://raw.githubusercontent.com/sergiokas/bashfiles/master"
+BASE="https://raw.githubusercontent.com/sergiokas/dotfiles/master"
 
 function getconf {
 	if [ ! -f ~/$1 ]; then
